@@ -102,7 +102,6 @@ class _KalkulatorBMIScreenState extends State<KalkulatorBMIScreen> {
             ),
             const SizedBox(height: 30),
 
-            // --- Pilihan Gender ---
             Text(
               "Pilih Jenis Kelamin",
               style: TextStyle(
