@@ -42,7 +42,6 @@ class _KalkulatorBMIScreenState extends State<KalkulatorBMIScreen> {
 
       setState(() {
         _bmiResult = bmi;
-        // Standar Kemenkes RI (dibedakan gender)
         if (_gender == "Laki-laki") {
           if (bmi < 18.5) {
             _bmiInterpretation = "Kekurangan berat badan";
